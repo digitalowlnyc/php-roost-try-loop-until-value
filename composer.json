@@ -1,0 +1,31 @@
+{
+    "name": "roost/try-loop-until-value",
+    "description": "PHP function to try a function call multiple times",
+    "authors": [
+        {
+            "name": "Blue Nest",
+            "email": "packages@bnest.co"
+        }
+    ],
+    "require": {
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "Roost\\LoopTryFunction\\": "src/Roost"
+        },
+        "files": [
+            "src/Roost/functions.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "repositories": [
+    ],
+    "extra": {
+    }
+}
